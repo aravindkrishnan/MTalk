@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mtalk", "Mtalk\Mtalk.csproj", "{31AA3993-723D-4794-B10E-FC9ECD9FAC1A}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "MtalkV1Setup", "MtalkV1Setup\MtalkV1Setup.vdproj", "{D18FD3B3-F701-4E51-865C-D29D27E1DB2B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{31AA3993-723D-4794-B10E-FC9ECD9FAC1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31AA3993-723D-4794-B10E-FC9ECD9FAC1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31AA3993-723D-4794-B10E-FC9ECD9FAC1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31AA3993-723D-4794-B10E-FC9ECD9FAC1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D18FD3B3-F701-4E51-865C-D29D27E1DB2B}.Debug|Any CPU.ActiveCfg = Debug
+		{D18FD3B3-F701-4E51-865C-D29D27E1DB2B}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

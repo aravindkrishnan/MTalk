@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{31AA3993-723D-4794-B10E-FC9ECD9FAC1A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Mtalk</RootNamespace>
+    <AssemblyName>Mtalk</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="agsXMPP, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Desktop\dotNET\Projects\AK_client\AK_client\agsXMPP.dll</HintPath>
+    </Reference>
+    <Reference Include="RosterItemControl, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\RosterItemControl\RosterItemControl\bin\Debug\RosterItemControl.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutBox.Designer.cs">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChatForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChatForm.Designer.cs">
+      <DependentUpon>ChatForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Message.cs" />
+    <Compile Include="Nudge.cs" />
+    <Compile Include="PresencePopUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresencePopUp.Designer.cs">
+      <DependentUpon>PresencePopUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="RosterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RosterForm.Designer.cs">
+      <DependentUpon>RosterForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StatusListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StatusListForm.Designer.cs">
+      <DependentUpon>StatusListForm.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\contacts.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\green.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\orange.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\red.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Moon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AboutBox.resx">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChatForm.resx">
+      <DependentUpon>ChatForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Network.ico" />
+    <EmbeddedResource Include="RosterForm.resx">
+      <DependentUpon>RosterForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StatusListForm.resx">
+      <DependentUpon>StatusListForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\button1over.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\button1up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\File.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Phone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Webcam.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\chat24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\File24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Phone24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Webcam24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\buttonOKover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\buttonOKup.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\buttonSover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\buttonSup.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\PullDown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\stop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\PullLeft.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\PullLeft24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\PullRight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\chat.png" />
+    <None Include="Images\FontIcon.png" />
+    <None Include="Images\PullRight24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\color.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\BuzzShock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Buzz.wav" />
+    <EmbeddedResource Include="PresencePopUp.resx">
+      <DependentUpon>PresencePopUp.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Emoticons\Away\smiley.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Emoticons\Away\smiley-confuse.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Emoticons\Away\smiley-cool.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Emoticons\Away\smiley-cry.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Emoticons\Away\smiley-eek.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Emoticons\Away\smiley-evil.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Emoticons\Away\smiley-grin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Emoticons\Away\smiley-lol.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Emoticons\Away\smiley-mad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Emoticons\Away\smiley-neutral.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Emoticons\Away\smiley-razz.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Emoticons\Away\smiley-red.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Emoticons\Away\smiley-roll.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Emoticons\Away\smiley-sad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Emoticons\Away\smiley-surprise.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Emoticons\Away\smiley-wink.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

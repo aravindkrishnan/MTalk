@@ -1,0 +1,17 @@
+C:\Users\Aravind\Documents\Visual Studio 2008\Projects\Mtalk\MTalk\Mtalk\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Aravind\Documents\Visual Studio 2008\Projects\Mtalk\MTalk\Mtalk\obj\Debug\Mtalk.Form1.resources
+C:\Users\Aravind\Documents\Visual Studio 2008\Projects\Mtalk\MTalk\Mtalk\obj\Debug\Mtalk.Properties.Resources.resources
+C:\Users\Aravind\Documents\Visual Studio 2008\Projects\Mtalk\MTalk\Mtalk\obj\Debug\Mtalk.RosterForm.resources
+C:\Users\Aravind\Documents\Visual Studio 2008\Projects\Mtalk\MTalk\Mtalk\obj\Debug\Mtalk.csproj.GenerateResource.Cache
+C:\Users\Aravind\Documents\Visual Studio 2008\Projects\Mtalk\MTalk\Mtalk\bin\Debug\Mtalk.exe
+C:\Users\Aravind\Documents\Visual Studio 2008\Projects\Mtalk\MTalk\Mtalk\bin\Debug\Mtalk.pdb
+C:\Users\Aravind\Documents\Visual Studio 2008\Projects\Mtalk\MTalk\Mtalk\bin\Debug\agsXMPP.dll
+C:\Users\Aravind\Documents\Visual Studio 2008\Projects\Mtalk\MTalk\Mtalk\bin\Debug\RosterItemControl.dll
+C:\Users\Aravind\Documents\Visual Studio 2008\Projects\Mtalk\MTalk\Mtalk\bin\Debug\RosterItemControl.pdb
+C:\Users\Aravind\Documents\Visual Studio 2008\Projects\Mtalk\MTalk\Mtalk\obj\Debug\Mtalk.exe
+C:\Users\Aravind\Documents\Visual Studio 2008\Projects\Mtalk\MTalk\Mtalk\obj\Debug\Mtalk.pdb
+C:\Users\Aravind\Documents\Visual Studio 2008\Projects\Mtalk\MTalk\Mtalk\obj\Debug\Mtalk.AboutBox.resources
+C:\Users\Aravind\Documents\Visual Studio 2008\Projects\Mtalk\MTalk\Mtalk\bin\Debug\crypto.dll
+C:\Users\Aravind\Documents\Visual Studio 2008\Projects\Mtalk\MTalk\Mtalk\obj\Debug\Mtalk.StatusListForm.resources
+C:\Users\Aravind\Documents\Visual Studio 2008\Projects\Mtalk\MTalk\Mtalk\obj\Debug\Mtalk.ChatForm.resources
+C:\Users\Aravind\Documents\Visual Studio 2008\Projects\Mtalk\MTalk\Mtalk\obj\Debug\Mtalk.PresencePopUp.resources
